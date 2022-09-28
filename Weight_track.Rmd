@@ -1,0 +1,37 @@
+---
+title: "Weight_track"
+author: "Toky"
+date: "28 septembre 2022"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Weight track app
+the weight track is an app made to evaluate the body mass index (BMI) of a person to identify if its weight is normal or not.
+
+## Input
+To calculate the BMI, those informations are useful:
+1. **Height** of the person in meter
+2. **Weight** of the person in kg
+
+
+## Output
+To calculate the BMI, the next formula is used 
+BMI <- weight/height^2
+Let's get some example
+```{r, echo = TRUE}
+height <- 1.7;weight <- 80;BMI <- weight/height^2
+BMI
+```
+The second output indicate the person' state. The next dataframe displays it.
+```{r}
+bmi_class <- data.frame(c("-19","19-24","25-29","30-39","+40"), c("too thin","normal weighted","overweighted","obese","super obese"))
+names(bmi_class) <- c("BMI", "State")
+bmi_class
+```
+## Thank you
+
+

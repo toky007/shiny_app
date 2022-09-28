@@ -1,0 +1,11 @@
+name: my_first_app
+title:
+username:
+account: toky007
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7151093
+bundleId: 6348544
+url: https://toky007.shinyapps.io/my_first_app/
+when: 1664393928.0894
+lastSyncTime: 1664393928.0894
